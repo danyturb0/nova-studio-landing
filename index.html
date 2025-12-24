@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaStudio — лендинг для креативного агентства</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <span class="badge">Креативное агентство</span>
+                <h1>NovaStudio — визуальный стиль для вашего бренда</h1>
+                <p>Разрабатываем сайты, айдентику и промо‑материалы для малого и среднего бизнеса. Фокус на понятных смыслах и аккуратной подаче.</p>
+                <div class="hero-actions">
+                    <a href="#brief" class="btn btn-primary">Заполнить бриф</a>
+                    <a href="#cases" class="btn btn-ghost">Смотреть примеры работ</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <h2>Реальный запрос клиента</h2>
+                <p>«Нужен простой, но аккуратный лендинг для агентства: первый экран, услуги, кейсы и форма заявки».</p>
+                <ul>
+                    <li>Срок: 3–4 дня</li>
+                    <li>Объём: 1 страница, 6 блоков</li>
+                    <li>Стоимость: 15 000-35 000 ₽</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="section services" id="services">
+        <div class="container">
+            <h2>Услуги, которые клиент хотел выделить</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Дизайн лендингов</h3>
+                    <p>Подготовка структуры, визуальных блоков и адаптивной верстки под основные разрешения.</p>
+                </div>
+                <div class="card">
+                    <h3>Айдентика бренда</h3>
+                    <p>Базовый набор: логотип, палитра, подбор шрифтов и гайд по использованию.</p>
+                </div>
+                <div class="card">
+                    <h3>Поддержка запусков</h3>
+                    <p>Баннеры, презентации и простые промо‑страницы под рекламные кампании.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section highlight">
+        <div class="container highlight-inner">
+            <div>
+                <h2>Задача проекта</h2>
+                <p>Собрать на одной странице аккуратную презентацию агентства: чем занимается, с кем работает и какие результаты даёт. Упростить первый контакт — сделать удобную форму брифа.</p>
+                <p>Важно было, чтобы лендинг выглядел современно, но оставался лёгким и быстро загружался на мобильных.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">3-4</span>
+                    <span class="stat-label">рабочих дня на разработку</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">основных блоков на странице</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">34k</span>
+                    <span class="stat-label">стоимость проекта для клиента</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cases" id="cases">
+        <div class="container">
+            <h2>Фрагменты кейсов для блока «Наши работы»</h2>
+            <div class="grid-2">
+                <div class="case-card">
+                    <span class="tag">Лендинг онлайн‑курса</span>
+                    <p>Многоступенчатый лендинг с расписанием, блоком спикеров и формой записи. Основной упор на понятную структуру и адаптив.</p>
+                    </div>
+                <div class="case-card">
+                    <span class="tag">Сайт студии интерьеров</span>
+                    <p>Презентация портфолио — сетка проектов, фильтрация по типу объектов и карточка проекта с описанием.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section brief" id="brief">
+        <div class="container brief-inner">
+            <div class="brief-text">
+                <h2>Краткий бриф, который мы добавили клиенту</h2>
+                <p>Форма не перегружена полями, но позволяет понять нишу, целевую аудиторию и примерный бюджет.</p>
+                <ul>
+                    <li>Контакты: имя + удобный способ связи</li>
+                    <li>Ниша и краткое описание продукта</li>
+                    <li>Примеры сайтов, которые нравятся</li>
+                    <li>Ожидаемые сроки и бюджет</li>
+                </ul>
+            </div>
+            <form class="brief-form">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" placeholder="Как к вам обращаться">
+                </div>
+                <div class="form-group">
+                    <label for="contact">Телеграм или email</label>
+                    <input type="text" id="contact" placeholder="@username или почта">
+                </div>
+                <div class="form-group">
+                    <label for="niche">Ниша и задача</label>
+                    <textarea id="niche" rows="3" placeholder="Чем занимаетесь и что нужно от сайта"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Ориентировочный бюджет</label>
+                    <input type="text" id="budget" placeholder="Например: 10–40 тыс. ₽">
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить бриф</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="section testimonial">
+        <div class="container">
+            <div class="testimonial-card">
+                <p>«Получили ровно то, что просили: аккуратный лендинг без перегруза и адекватную верстку под мобильные. Уложились в сроки и бюджет около 34 000 ₽».</p>
+                <span>— Лид‑дизайнер NovaStudio</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>NovaStudio — пример коммерческого проекта</span>
+            <span>Верстка и фронтенд‑часть выполнены по индивидуальному заказу</span>
+        </div>
+    </footer>
+</body>
+</html>
